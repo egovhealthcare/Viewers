@@ -22,7 +22,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: care-ecosystem/radiology-ohif
+  IMAGE_NAME: egovhealthcare/radiology-ohif
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
